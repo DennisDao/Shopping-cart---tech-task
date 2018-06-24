@@ -28,7 +28,6 @@ function PromotionManger() {
                         // we need to take 9 and divide by 6 for second promotion 9 : 6 -> 1.5
                         // whole number is 1 which is 6 itmes the price is $14.90
                         // the fraction is 0.5 multiply by 6 to get the remaining items which is 3.
-                        
                         let i = quantity / 24;
                         let iFraction = (i - Math.floor(i)) * 24; 
                         let j = iFraction / 6; 
